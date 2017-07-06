@@ -5,7 +5,7 @@ env:
     JAVA_HOME: "/usr"
     M2_HOME: "/usr/share/apache-maven"
     M2: "/usr/share/apache-maven/bin"
-    PATH: "/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/share/apache-maven/bin/"
+    PATH: "/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/share/apache-maven/bin"
 
     
 phases:
