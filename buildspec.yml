@@ -3,8 +3,9 @@ version: 0.2
 env:
   variables:
     JAVA_HOME: "/usr"
-   
-
+    $M2_HOME: "/usr/share/maven"
+    $M2: "/usr/share/maven/bin"
+    
 phases:
   install:
     commands:
