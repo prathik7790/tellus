@@ -3,12 +3,13 @@ version: 0.2
 env:
   variables:
     JAVA_HOME: "/usr"
+   
 
 phases:
   install:
     commands:
-      - apt-get update -y
-      - apt-get install -y maven
+      - sudo apt-get update -y
+      - sudo apt-get install -y maven
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
