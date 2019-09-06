@@ -1,7 +1,13 @@
 node {
   echo 'Hello World'
-  stage('Code Checkout')
+  stage('Code Checkout'){
   checkout scm
-  stage('Test')
-  echo 'Hello'
+  }
+  stage('Build') {
+        
+      dir ('tellus') {
+            sh 'mvn clean install test'
+      } 
+       
+   }
 }
