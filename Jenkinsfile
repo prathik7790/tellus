@@ -4,4 +4,5 @@ node {
   checkout scm
   stage('Test')
   echo 'Hello'
+  echo 'Test'
 }
