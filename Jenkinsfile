@@ -8,11 +8,12 @@ node {
   sh 'export PATH=$PATH:$MAVEN_HOME/bin'
   sh 'mvn --version'
   sh 'mvn clean package'
+  sh 'mvn clean install'
   }
   stage('Build') {
         
       dir ('tellus') {
-            sh 'mvn clean install test'
+            sh 'mvn clean compile'
       } 
        
    }
