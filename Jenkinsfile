@@ -13,7 +13,7 @@ properties([
     ])
 ])
 node {
-    git branch: "${params.BRANCH}", url: 'https://github.com/prathik7790/tellus.git'
+    git branch: "${BRANCH}", url: 'https://github.com/prathik7790/tellus.git'
 }
 stage('Code checkout'){
   checkout scm
